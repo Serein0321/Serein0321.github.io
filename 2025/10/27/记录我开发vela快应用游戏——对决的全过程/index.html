@@ -186,7 +186,7 @@
                             
                                 <span class="tag">
                                     
-                                        <a href="/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/" style="color: #ffa2c4">
+                                        <a href="/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/" style="color: #03a9f4">
                                             自主开发
                                         </a>
                                 </span>
@@ -208,19 +208,25 @@
 </ol>
 </blockquote>
 
+
+
+
+
+
+
 <h2 id="项目开发前言"><a href="#项目开发前言" class="headerlink" title="项目开发前言"></a>项目开发前言</h2><p>高中的时候，我有一个小米手环9pro，我很喜欢玩别人开发的手环小游戏，打算等高考完自己开发一个。</p>
 <p>2025年6月25日是我高考完暑假期间第一次拿到自己的电脑。也是从这时候开始，我开始看官方的vela开发文档，学习如何开发快应用。</p>
 <p>我决定开发一款长线养成类游戏，最好还可以多人对战，于是首次决定游戏以<strong>对决</strong>为名。</p>
 <p>第一次发布出去的时间是2025年8月11日，在表盘自定义工具和米坛社区成功发布对决1.0.0版本。</p>
 <p>此项目的所有代码均由我一个人编写，前端无人任何AI帮助，后端部分借助AI工具开发。图片资源均由<strong>灿若繁星</strong>提供。</p>
-<p>从2025年6月25日到昨天2025年10月26日，我的对决经过无数次改版发布。最终彻底完结时版本停留在了4.9.9版本。总计前端写了9000多行代码，后端写了5000多行php代码，数据库里也建了25张表。从数据库里得知，截至2025年10月27日23点45分，注册人数已经达到5591人。在表盘自定义工具中下载量也超过了2w。收益2612元</p>
+<p>从2025年6月25日到昨天2025年10月26日，我的对决经过无数次改版发布。最终彻底完结时版本停留在了4.9.9版本。总计前端写了9000多行代码，后端写了5000多行php代码，数据库里也建了25张表。从数据库里得知，截至2025年10月27日23点45分，注册人数已经达到5591人。</p>
 <h2 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h2><p>游戏的主界面如下：</p>
 <p><img src="/2025/10/27/%E8%AE%B0%E5%BD%95%E6%88%91%E5%BC%80%E5%8F%91vela%E5%BF%AB%E5%BA%94%E7%94%A8%E6%B8%B8%E6%88%8F%E2%80%94%E2%80%94%E5%AF%B9%E5%86%B3%E7%9A%84%E5%85%A8%E8%BF%87%E7%A8%8B/image-20251027235122859.png" alt="image-20251027235122859"></p>
 <p>可点击的交互按钮有：<strong>角色</strong>、<strong>招募</strong>、<strong>背包</strong>、<strong>商店</strong>、<strong>探索</strong>、<strong>好友</strong>、<strong>玩法介绍</strong>、<strong>邮箱</strong>、<strong>关卡模式</strong>、<strong>竞技模式</strong>、<strong>关于</strong></p>
 <p>不可点击的信息按钮有：<strong>等级经验条</strong>、<strong>金币数量</strong>、<strong>钻石数量</strong>、<strong>UID</strong>、<strong>用户名</strong></p>
 <p>其中部分功能需要连接小米运动健康才能体验，主要有：<strong>好友</strong>、<strong>竞技模式</strong></p>
-<hr>
 <p>接下来我将逐个按钮介绍他们的功能，从重要按钮到不重要按钮的顺序来介绍</p>
+<hr>
 <h3 id="一、角色"><a href="#一、角色" class="headerlink" title="一、角色"></a>一、角色</h3><p>这个界面有<strong>我的</strong>、<strong>图鉴</strong>、<strong>布阵</strong>三部分。接下来我将逐一介绍</p>
 <h4 id="1、我的"><a href="#1、我的" class="headerlink" title="1、我的"></a>1、我的</h4><p><strong>我的</strong>的主界面如下：</p>
 <p><img src="/2025/10/27/%E8%AE%B0%E5%BD%95%E6%88%91%E5%BC%80%E5%8F%91vela%E5%BF%AB%E5%BA%94%E7%94%A8%E6%B8%B8%E6%88%8F%E2%80%94%E2%80%94%E5%AF%B9%E5%86%B3%E7%9A%84%E5%85%A8%E8%BF%87%E7%A8%8B/image-20251028003035969.png" alt="image-20251028003035969"></p>
@@ -232,7 +238,7 @@
 <p>在角色图片的下方有角色的等级，和升级按钮。</p>
 <p>升级消耗角色经验，下方蓝字显示我的角色经验数量。</p>
 <p><font color=red><strong><u>角色装备</u><strong>和</strong><u>隐藏果实属性</u><strong>在之后讲到主界面的</strong>背包</strong>按钮的时候再讲</font></p>
-<h4 id="2、图鉴"><a href="#2、图鉴" class="headerlink" title="2、图鉴"></a>2、图鉴</h4><p>只是显示对决里的8个角色而已，如下图所示：</p>
+<h4 id="2、图鉴"><a href="#2、图鉴" class="headerlink" title="2、图鉴"></a>2、图鉴</h4><p>如图所示：</p>
 <div style="display: flex;
             flex-direction: row;
             gap: 10px;
@@ -243,11 +249,27 @@
 </div>
 
 
-<h4 id="3、布阵"><a href="#3、布阵" class="headerlink" title="3、布阵"></a>3、布阵</h4><p>布阵的界面如下：</p>
-<img src="7e9240c8-9702-4492-af08-44ae8412feca.png" style="height: 400px; object-fit: contain;" />
+<h4 id="3、布阵"><a href="#3、布阵" class="headerlink" title="3、布阵"></a>3、布阵</h4><p>如图所示：</p>
+<div style="display: flex;
+            flex-direction: row;
+            gap: 10px;
+            overflow-x: auto;">
+    <img src="QQ_1761585379260.png" style="height: 400px; object-fit: contain;" />
+    <img src="QQ_1761585453914.png" style="height: 400px; object-fit: contain;" />
+    <img src="QQ_1761585581846.png" style="height: 400px; object-fit: contain;" />
+</div>
+### 二、招募
 
-
-
+<p>开局只送剑士、弓箭手、法师三个角色，想要更强力的角色就来招募里抽招募券，用足够的招募券前往商店购买角色。</p>
+<div style="display: flex;
+            flex-direction: row;
+            gap: 10px;
+            overflow-x: auto;">
+    <img src="QQ_1761586058845.png" style="height: 400px; object-fit: contain;" />
+    <img src="QQ_1761586084649.png" style="height: 400px; object-fit: contain;" />
+    <img src="QQ_1761586101919.png" style="height: 400px; object-fit: contain;" />
+    <img src="QQ_1761586114904.png" style="height: 400px; object-fit: contain;" />
+</div>
 
                 </div>
                 
