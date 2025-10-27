@@ -156,7 +156,7 @@
     <div
         id="home-background"
         ref="homeBackground"
-        data-images="/images/background.jpg"
+        data-images="/images/background/background.jpg,/images/background/background2.jpg,/images/background/background3.jpg,/images/background/background4.jpg,/images/background/background5.jpg,/images/background/background6.jpg,/images/background/background7.jpg,/images/background/background8.jpg,/images/background/background9.jpg"
     ></div>
     <div id="home-info" @click="homeClick">
         <span class="loop"></span>
@@ -167,11 +167,12 @@
             <div class="wrap">
                 <h1>Serein0321の小窝</h1>
                 <h3></h3>
-                <h5></h5>
+                <h5 id="dynamic-description"></h5>
             </div>
         </span>
     </div>
 </div>
+
 <div
     id="home-posts-wrap"
     ref="homePostsWrap"
@@ -222,17 +223,17 @@
         
         <span class="tag">
             
-            <a href="/tags/Injury/" style="color: #ffa2c4">Injury</a>
+            <a href="/tags/Injury/" style="color: #03a9f4">Injury</a>
         </span>
         
         <span class="tag">
             
-            <a href="/tags/Fight/" style="color: #00a596">Fight</a>
+            <a href="/tags/Fight/" style="color: #ffa2c4">Fight</a>
         </span>
         
         <span class="tag">
             
-            <a href="/tags/Shocking/" style="color: #ff7d73">Shocking</a>
+            <a href="/tags/Shocking/" style="color: #00bcd4">Shocking</a>
         </span>
         
     </div>
@@ -286,7 +287,7 @@
         
         <span class="tag">
             
-            <a href="/tags/Injury/" style="color: #00bcd4">Injury</a>
+            <a href="/tags/Injury/" style="color: #ff7d73">Injury</a>
         </span>
         
         <span class="tag">
@@ -296,7 +297,7 @@
         
         <span class="tag">
             
-            <a href="/tags/Shocking/" style="color: #00bcd4">Shocking</a>
+            <a href="/tags/Shocking/" style="color: #00a596">Shocking</a>
         </span>
         
     </div>
@@ -342,6 +343,23 @@
     </div>
     
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('https://v1.hitokoto.cn/?encode=text')
+        .then(response => response.text())
+        .then(text => {
+            if (text) {
+                document.getElementById('dynamic-description').textContent = text;
+            }
+        })
+        .catch(() => {
+            // 如果获取失败，保持原来的描述
+        });
+});
+</script>
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="/js/love-click.js"></script>
 
             <footer id="footer">
     <div id="footer-wrap">
