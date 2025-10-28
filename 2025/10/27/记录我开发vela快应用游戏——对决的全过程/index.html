@@ -186,7 +186,7 @@
                             
                                 <span class="tag">
                                     
-                                        <a href="/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/" style="color: #ffa2c4">
+                                        <a href="/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/" style="color: #ff7d73">
                                             自主开发
                                         </a>
                                 </span>
@@ -216,7 +216,7 @@
 
 <h2 id="项目开发前言"><a href="#项目开发前言" class="headerlink" title="项目开发前言"></a>项目开发前言</h2><p>高中的时候，我有一个小米手环9pro，我很喜欢玩别人开发的手环小游戏，打算等高考完自己开发一个。</p>
 <p>2025年6月25日是我高考完暑假期间第一次拿到自己的电脑。也是从这时候开始，我开始看官方的vela开发文档，学习如何开发快应用。</p>
-<p>我决定开发一款长线养成类游戏，最好还可以多人对战，于是首次决定游戏以<strong>对决</strong>为名。</p>
+<p>2025年7月3日，我决定开发一款长线养成类游戏，最好还可以多人对战，于是首次决定游戏以<strong>对决</strong>为名。</p>
 <p>第一次发布出去的时间是2025年8月11日，在表盘自定义工具和米坛社区成功发布对决1.0.0版本。</p>
 <p>此项目的所有代码均由我一个人编写，前端无人任何AI帮助，后端部分借助AI工具开发。图片资源均由<strong>灿若繁星</strong>提供。</p>
 <p>从2025年6月25日到昨天2025年10月26日，我的对决经过无数次改版发布。最终彻底完结时版本停留在了4.9.9版本。总计前端写了9000多行代码，后端写了5000多行php代码，数据库里也建了25张表。从数据库里得知，截至2025年10月27日23点45分，注册人数已经达到5591人。</p>
@@ -272,7 +272,7 @@
 </div>
 
 <p><font color=red>(注：图片可横向滚动)</font></p>
-<h4 id="三、商店"><a href="#三、商店" class="headerlink" title="三、商店"></a>三、商店</h4><p>如图所示：</p>
+<h3 id="三、商店"><a href="#三、商店" class="headerlink" title="三、商店"></a>三、商店</h3><p>如图所示：</p>
 <div style="display: flex;
             flex-direction: row;
             gap: 10px;
@@ -286,8 +286,138 @@
 <p><font color=red>(注：图片可横向滚动)</font></p>
 <p>这里仅展示金币商店、普通招募券、竞技币商店（竞技币需要在竞技模式的竞技场里获取）</p>
 <p><font color=red><strong><u>xx灵果</u><strong>在之后讲到主界面的</strong>背包</strong>按钮的时候再讲</font></p>
-<h4 id="四、背包"><a href="#四、背包" class="headerlink" title="四、背包"></a>四、背包</h4><p>背包里分为两个界面，<em><strong><u>增益食物</u><em><strong>和</strong></em><u>角色装备</u></strong></em>，通过下方按钮切换。</p>
-<p>增益食物可以直接永久性的给角色提供属性加成。</p>
+<h3 id="四、背包"><a href="#四、背包" class="headerlink" title="四、背包"></a>四、背包</h3><p>背包里分为两个界面，<em><strong><u>增益食物</u><em><strong>和</strong></em><u>角色装备</u></strong></em>，通过下方按钮切换。<font color=#45F3E8><em>(增益食物可以直接永久性的给角色提供属性加成。)</em></font></p>
+<hr>
+<h4 id="1、果实加成部分"><a href="#1、果实加成部分" class="headerlink" title="1、果实加成部分"></a>1、果实加成部分</h4><p>果实加成如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th>生命幼果+500</th>
+<th>生命灵果+2500</th>
+<th>生命圣果+10000</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>攻击幼果+50</td>
+<td>攻击灵果+250</td>
+<td>攻击圣果+1000</td>
+</tr>
+<tr>
+<td>防御幼果+50</td>
+<td>防御灵果+250</td>
+<td>防御圣果+1000</td>
+</tr>
+</tbody></table>
+<p>演示图如下：</p>
+<div style="display: flex;
+            flex-direction: row;
+            gap: 10px;
+            overflow-x: auto;">
+    <img src="QQ_1761629151434.png" style="height: 400px; object-fit: contain;" />
+    <img src="QQ_1761629180935.png" style="height: 400px; object-fit: contain;" />
+</div>
+
+
+
+<h4 id="2、角色装备部分"><a href="#2、角色装备部分" class="headerlink" title="2、角色装备部分"></a>2、角色装备部分</h4><p>角色装备分为**<u>头盔</u><strong>（加防御）、</strong><u>盔甲</u><strong>（加生命）、</strong><u>武器</u>**（加攻击）</p>
+<p>每个装备都有五种品质（白、蓝、紫、黄、红）。装备可以升级，最高可升到50级。</p>
+<p>每件装备都有**<u>初始属性数值</u><strong>和</strong><u>强化区间</u>**。<font color=#45F3E8><em>（举个例子：例如红盔甲初始属性数值是+2000生命，强化区间是2000~10000生命。那我这件红装备1级的数值是2000生命，2级的数值最坏情况下是4000生命，最好情况下是12000生命。）</em></font></p>
+<table>
+<thead>
+<tr>
+<th align="center">装备名称</th>
+<th align="center">初始属性</th>
+<th align="center">强化区间</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">白头盔</td>
+<td align="center">+10防御</td>
+<td align="center">10~50</td>
+</tr>
+<tr>
+<td align="center">蓝头盔</td>
+<td align="center">+20防御</td>
+<td align="center">20~100</td>
+</tr>
+<tr>
+<td align="center">紫头盔</td>
+<td align="center">+40防御</td>
+<td align="center">40~200</td>
+</tr>
+<tr>
+<td align="center">黄头盔</td>
+<td align="center">+100防御</td>
+<td align="center">100~500</td>
+</tr>
+<tr>
+<td align="center">红头盔</td>
+<td align="center">+200防御</td>
+<td align="center">200~1000</td>
+</tr>
+<tr>
+<td align="center">白盔甲</td>
+<td align="center">+100生命</td>
+<td align="center">100~500</td>
+</tr>
+<tr>
+<td align="center">蓝盔甲</td>
+<td align="center">+200生命</td>
+<td align="center">200~1000</td>
+</tr>
+<tr>
+<td align="center">紫盔甲</td>
+<td align="center">+400生命</td>
+<td align="center">400~2000</td>
+</tr>
+<tr>
+<td align="center">黄盔甲</td>
+<td align="center">+1000生命</td>
+<td align="center">1000~5000</td>
+</tr>
+<tr>
+<td align="center">红盔甲</td>
+<td align="center">+2000生命</td>
+<td align="center">2000~10000</td>
+</tr>
+<tr>
+<td align="center">白武器</td>
+<td align="center">+10攻击</td>
+<td align="center">10~50</td>
+</tr>
+<tr>
+<td align="center">蓝武器</td>
+<td align="center">+20攻击</td>
+<td align="center">20~100</td>
+</tr>
+<tr>
+<td align="center">紫武器</td>
+<td align="center">+40攻击</td>
+<td align="center">40~200</td>
+</tr>
+<tr>
+<td align="center">黄武器</td>
+<td align="center">+100攻击</td>
+<td align="center">100~500</td>
+</tr>
+<tr>
+<td align="center">红武器</td>
+<td align="center">+200攻击</td>
+<td align="center">200~1000</td>
+</tr>
+</tbody></table>
+<p>演示图如下：</p>
+<div style="display: flex;
+            flex-direction: row;
+            gap: 10px;
+            overflow-x: auto;">
+    <img src="QQ_1761629133667.png" style="height: 400px; object-fit: contain;" />
+    <img src="QQ_1761629212184.png" style="height: 400px; object-fit: contain;" />
+    <img src="QQ_1761629231252.png" style="height: 400px; object-fit: contain;" />
+</div>
+
+<p>装备的获取途径是探索里的**<u>远古遗迹</u>**，接下来就会讲探索。</p>
+<h3 id="五、探索"><a href="#五、探索" class="headerlink" title="五、探索"></a>五、探索</h3><p>探索可以获得金币、钻石、角色经验、角色装备。</p>
 
                 </div>
                 
