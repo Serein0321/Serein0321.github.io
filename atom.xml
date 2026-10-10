@@ -10,11 +10,14 @@
   <rights>All rights reserved 2026, Serein0321</rights>
   <subtitle>技术博客</subtitle>
   <title>Serein0321's Blog</title>
-  <updated>2026-10-10T12:42:56.672Z</updated>
+  <updated>2026-10-10T15:02:59.009Z</updated>
   <entry>
     <author>
       <name>Serein0321</name>
     </author>
+    <category term="技术笔记" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="GitHub Pages" scheme="http://example.com/tags/GitHub-Pages/"/>
     <content>
       <![CDATA[<p>这是我的第一篇博客，用来记录自己的学习过程。</p><span id="more"></span><h2 id="今天学到了什么"><a href="#今天学到了什么" class="headerlink" title="今天学到了什么"></a>今天学到了什么</h2><p>我学会了使用 Hexo 创建文章。</p><h2 id="接下来的计划"><a href="#接下来的计划" class="headerlink" title="接下来的计划"></a>接下来的计划</h2><ul><li>记录技术问题。</li><li>整理解决方法。</li><li>分享学习心得。</li></ul>]]>
     </content>
@@ -25,7 +28,7 @@
       <![CDATA[<p>这是我的第一篇博客，用来记录自己的学习过程。</p>]]>
     </summary>
     <title>我的第一篇博客</title>
-    <updated>2026-10-10T12:42:56.672Z</updated>
+    <updated>2026-10-10T15:02:59.009Z</updated>
   </entry>
   <entry>
     <author>

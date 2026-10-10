@@ -12,6 +12,13 @@
 <li>分享学习心得。</li>
 </ul>
 ]]></content>
+      <categories>
+        <category>技术笔记</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>GitHub Pages</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
