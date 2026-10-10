@@ -1,37 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2026/10/10/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>我的第一篇博客</title>
-    <url>/2026/10/10/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>这是我的第一篇博客，用来记录自己的学习过程。</p>
+    <title>从零开始搭建hexo博客</title>
+    <url>/2026/10/11/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>从零开始搭建自己的博客：hexo+next+github Pages</p>
 <span id="more"></span>
-<h2 id="今天学到了什么"><a href="#今天学到了什么" class="headerlink" title="今天学到了什么"></a>今天学到了什么</h2><p>我学会了使用 Hexo 创建文章。</p>
-<h2 id="接下来的计划"><a href="#接下来的计划" class="headerlink" title="接下来的计划"></a>接下来的计划</h2><ul>
-<li>记录技术问题。</li>
-<li>整理解决方法。</li>
-<li>分享学习心得。</li>
-</ul>
+<h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><ol>
+<li><p>安装 Node.js</p>
+</li>
+<li><p>安装git</p>
+</li>
+</ol>
+<h2 id="step1-创建github仓库"><a href="#step1-创建github仓库" class="headerlink" title="step1: 创建github仓库"></a>step1: 创建github仓库</h2><p>登录 GitHub，点击右上角的 “+” → “New repository”，创建一个名为 <code>你的用户名.github.io</code> 的公开仓库。例如我的用户名是 Serein0321，就创建 <code>Serein0321.github.io</code>。</p>
+<p><img src="D:\blog\Serein0321.github.io\source\_posts\从零开始搭建hexo博客\15ddaf0b-a7fa-42f6-92b3-99c083b8f103.png" alt="15ddaf0b-a7fa-42f6-92b3-99c083b8f103" style="zoom: 25%;" /></p>
 ]]></content>
       <categories>
-        <category>技术笔记</category>
+        <category>网站博客</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
-        <tag>GitHub Pages</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
 </search>
