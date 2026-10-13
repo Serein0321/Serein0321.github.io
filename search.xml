@@ -243,6 +243,7 @@
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">main                       稳定版本</span><br><span class="line">└─ feature/add-study-notes  新功能</span><br></pre></td></tr></table></figure>
 <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">switch</span> <span class="literal">-c</span> feature/<span class="built_in">add-study</span><span class="literal">-notes</span></span><br><span class="line">git branch</span><br></pre></td></tr></table></figure>
 <p><code>git switch -c</code> 同时创建并切换分支，<code>git branch</code> 前面的 <code>*</code> 表示当前分支。</p>
+<img src="/2026/10/12/%E4%B8%AA%E4%BA%BA%E5%BC%80%E5%8F%91%EF%BC%9Agithub%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/30c6d654-f226-430f-a97e-733d08734d93.png" class="" title="创建新分支示意图">
 <p>新分支刚创建时和主分支指向同一条提交；创建新的 Commit 后，两条分支才会出现不同内容。</p>
 <h2 id="七、在功能分支开发并上传"><a href="#七、在功能分支开发并上传" class="headerlink" title="七、在功能分支开发并上传"></a>七、在功能分支开发并上传</h2><p>创建新文件或修改，写几条学习记录并保存：</p>
 <p>检查、暂存、提交，再上传功能分支：</p>
